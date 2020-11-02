@@ -47,13 +47,15 @@ jobs:
       
       
   deploy:
-    
-    runs-on: windows-latest
-
-      steps:
       
-        -uses: actions/checkout@v2
-         
+    runs-on: ubuntu-latest
+
+   
+    steps:
+      
+      - uses: actions/checkout@v2
+
+     
         -name: Checking
          run: echo How are u?
          

@@ -55,9 +55,9 @@ jobs:
       
       - uses: actions/checkout@v2
 
-     
-        -name: Checking
-         run: echo How are u?
+      - name: Run a one-line script
+        run: echo how are you?
+        
          
     
     
